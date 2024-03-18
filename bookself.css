@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Lora", serif;
+    font-size: 50px;
+}
+ 
+h2 {
+    font-family: "Lora", serif;
+    font-size: 25px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    padding-bottom: 30px;    
+}
+
+header p {
+    padding-top: 15px;
+}
+
+.conteudo {
+    margin-top: 40px;
+}
+
+.conteudo h2, p{
+    padding: 6px;
+}
+
+.conteudo button{
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#navegaçao ul, li{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+li {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(0, 137, 190);
+    color: white;
+}
+
+.see {
+    color: white;
+    background-color: black;
+}
+
+.final {
+    margin-top: 60px;
+    margin-bottom: 70px ;
+}
+
+.final p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.final button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
